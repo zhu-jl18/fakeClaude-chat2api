@@ -2,7 +2,21 @@
 
 这是一个将 TalkAI 的 API 格式转换为 OpenAI ChatCompletion API 格式的适配器。
 
-⚠️ **重要提醒**：本项目使用的是公共分享的 TalkAI API 密钥，可能随时失效。如果遇到认证错误，请获取新的密钥并按照下方指南更新。
+## 项目来源
+
+本项目基于以下开源项目开发：
+- [oDaiSuno/talkai2api](https://github.com/oDaiSuno/talkai2api) - 原始 TalkAI API 适配器
+- [libaxuan/CtoAPi](https://github.com/libaxuan/CtoAPi) - Claude API 转换器
+
+感谢原作者的贡献！
+
+## 重要声明
+
+⚠️ **关于模型真实性**：
+- 本项目使用的是公共分享的 TalkAI API 密钥，可能随时失效
+- **Claude 模型可能不是真正的 Anthropic Claude**：响应速度异常快，怀疑使用的是其他模型或代理服务
+- 仅供学习和测试使用，请勿用于生产环境或重要业务
+- 如果遇到认证错误，请获取新的密钥并按照下方指南更新
 
 ## 功能
 
@@ -114,3 +128,14 @@ Vercel 主要针对静态网站和 Serverless Functions 优化，不太适合长
 - 更好的 FastAPI/uvicorn 兼容性
 - 支持流式响应
 - 更适合 API 服务的架构
+
+## 许可证
+
+本项目基于开源项目开发，遵循相应的开源许可证。请尊重原作者的版权。
+
+## 免责声明
+
+- 本项目仅供学习和测试使用
+- 不保证服务的稳定性和可用性
+- 使用者应自行承担使用风险
+- 请遵守相关法律法规和服务条款
